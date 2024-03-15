@@ -10,7 +10,7 @@ coffee_money_machine = MoneyMachine()
 selected_drink = 'no drink selected'
 
 while not turn_off_machine:
-    user_input = input('Please select a drink:\snl = latte\ne = espresso\nc = cappuccino\nEnter your selection: ')
+    user_input = input('Please select a drink:\nl = latte\ne = espresso\nc = cappuccino\nEnter your selection: ')
 
     if user_input.lower() == 'off':
         turn_off_machine = True
